@@ -12,9 +12,18 @@ function App() {
   );
 }
 
-function Person() {
-  return <h1>shakib al hasan </h1>
+function Person(props) {
+  console.log(props);
+  return (
+    <div className='person'>
+       <h1>shakib al hasan </h1>
+       <p>profession : Cricketer </p>
+       <p>team: Bangladesh</p>
+    </div>
+  )
 }
+
+
 
 
 export default App;

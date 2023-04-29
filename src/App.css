@@ -42,3 +42,11 @@
  padding: 2%;
  margin: 2%;
 }
+
+.person{
+  background-color: rgb(141, 179, 190);
+  border: 3px solid rgb(95, 106, 109) ;
+  border-radius: 20%;
+  margin: 1%;
+  padding: 2%;
+}
